@@ -1,0 +1,7 @@
+{
+    "BaseDir": "",
+    "IsDevelopment": true,
+    "Name": "Collab Sign",
+    "Project": "Custom Scenery.csproj",
+	"AssetBundleDir": "assetbundle"
+}

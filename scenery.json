@@ -1,0 +1,10 @@
+﻿{
+    "Sign": {
+		"category": "Sign",
+		"model": "sign",
+		"type": "deco",
+		"price": 1.0,
+		"gridSubdivision": 2.0,
+		"snapCenter": false
+	}
+}

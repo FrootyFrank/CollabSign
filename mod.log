@@ -1,0 +1,24 @@
+[16-05-16 09:57:21] Info: Compiling Collab Sign to bin/build-160516095721899.dll...
+[16-05-16 09:57:21] Info: Compiling from `Custom Scenery.csproj`.
+[16-05-16 09:57:21] Info: Resolved assembly reference `Assembly-CSharp` to `/Users/ThijsWittendorp/Library/Application Support/Steam/steamapps/common/Parkitect/Parkitect.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System` to `System.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System.Core` to `System.Core.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System.Data` to `System.Data.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System.Data.DataSetExtensions` to `System.Data.DataSetExtensions.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System.Xml` to `System.Xml.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `System.Xml.Linq` to `System.Xml.Linq.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `UnityEngine` to `/Users/ThijsWittendorp/Library/Application Support/Steam/steamapps/common/Parkitect/Parkitect.app/Contents/Resources/Data/Managed/UnityEngine.dll`
+[16-05-16 09:57:21] Info: Resolved assembly reference `UnityEngine.UI` to `/Users/ThijsWittendorp/Library/Application Support/Steam/steamapps/common/Parkitect/Parkitect.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll`
+[16-05-16 09:57:21] Info: Source files: CustomScenery\Decorators\GridDecorator.cs, CustomScenery\Decorators\GridSubdivisionDecorator.cs, CustomScenery\Decorators\HeightDecorator.cs, CustomScenery\Decorators\IDecorator.cs, CustomScenery\Decorators\NameDecorator.cs, CustomScenery\Decorators\PriceDecorator.cs, CustomScenery\Decorators\RecolorableDecorator.cs, CustomScenery\Decorators\SnapToCenterDecorator.cs, CustomScenery\Decorators\TypeDecorator.cs, CustomScenery\Decorators\Type\CategoryDecorator.cs, CustomScenery\Decorators\Type\FenceDecorator.cs, CustomScenery\Decorators\Type\LampDecorator.cs, CustomScenery\Decorators\Type\SeatingAutoDecorator.cs, CustomScenery\Decorators\Type\DecoDecorator.cs, CustomScenery\Decorators\Type\SeatingDecorator.cs, CustomScenery\Decorators\Type\TrashBinDecorator.cs, CustomScenery\Main.cs, CustomScenery\SceneryLoader.cs from `/Users/ThijsWittendorp/Library/Application Support/Parkitect/pnmods/collab sigh`.
+[16-05-16 09:57:21] Info: Compile using compiler version v3.5.
+[16-05-16 09:58:03] Info: Loaded build-160516095721899, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-16 09:58:03] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+System.ArgumentException: The thing you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in <filename unknown>:0 
+  at Custom_Scenery.Decorators.TypeDecorator.Decorate (System.Collections.Generic.Dictionary`2 options, UnityEngine.AssetBundle bundle) [0x00000] in <filename unknown>:0 
+  at Custom_Scenery.SceneryLoader.LoadScenery () [0x00000] in <filename unknown>:0 
+[16-05-16 09:58:58] Info: Loaded build-160516095721899, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-16 09:58:58] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
+[16-05-16 10:01:20] Info: Loaded build-160516095721899, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null.
+[16-05-16 10:01:20] Info: Sucessfully registered Custom_Scenery.Main to the mod manager.
